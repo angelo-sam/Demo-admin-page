@@ -1,7 +1,9 @@
 body {
+  margin: 0;
   width: auto;
   scroll-behavior: smooth;
 }
+
 a {
   color: hotpink;
 }
@@ -13,6 +15,7 @@ a:hover {
 p,
 h1 {
   font-family: "Antonio", sans-serif;
+  margin: 10px;
 }
 
 .list {
