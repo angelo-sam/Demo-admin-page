@@ -3,6 +3,25 @@ body {
   width: auto;
   scroll-behavior: smooth;
 }
+.mybox {
+  border: 1px solid;
+  height: 300px;
+  width: 300px;
+  background-color: gray;
+  position: fixed;
+  top: 100px;
+  left: 400px;
+  z-index: -1;
+}
+.otherbox {
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
 
 a {
   color: hotpink;
@@ -18,7 +37,8 @@ h1 {
   margin: 10px;
 }
 nav {
-  position: sticky;
+  /* position: sticky;
+  top: 0px; */
   background-color: rgb(20, 20, 68);
   border: 5px solid black;
 }
