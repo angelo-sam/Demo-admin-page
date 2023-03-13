@@ -17,10 +17,14 @@ h1 {
   font-family: "Antonio", sans-serif;
   margin: 10px;
 }
-
-.list {
+nav {
+  position: sticky;
   background-color: rgb(20, 20, 68);
+  border: 5px solid black;
+}
+.list {
   max-width: 100%;
+  /* position: sticky; */
 }
 
 .fontsample {
