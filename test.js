@@ -439,3 +439,10 @@
 //   robot
 // );
 // console.log(newRobot);
+
+const myWord = " Rumbling";
+const theScout = "Eren";
+let newResult = myWord.concat(theScout);
+console.log(newResult);
+
+// console.log(theScout);
