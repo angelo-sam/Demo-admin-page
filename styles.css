@@ -41,10 +41,12 @@ nav {
   top: 0px; */
   background-color: rgb(20, 20, 68);
   border: 5px solid black;
+  justify-content: space-between;
 }
-.list {
-  max-width: 100%;
-  /* position: sticky; */
+.navlist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .fontsample {
@@ -52,7 +54,13 @@ nav {
   color: green;
   font-style: oblique;
   font-weight: 700;
-
+  background-color: rgb(8, 6, 10);
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+  float: right;
   /* font-variant: small-caps; */
 }
 
@@ -77,24 +85,22 @@ a:active {
   background-color: transparent;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
 table,
 th,
 td {
   border: 1px solid black;
   border-radius: 10px;
+}
+hr {
+  background-color: red;
+}
+.test1 {
+  border: 5px solid green;
+  border-radius: 10px;
+  margin: 10px;
+}
+.test1::after {
+  content: "";
+  clear: both;
+  display: table;
 }

@@ -94,12 +94,28 @@
 // }
 // console.log(eightBall);
 
-let i = 0;
-let asterisk = "*";
+// let i = 0;
+// let asterisk = "*";
 
-while (i < 5) {
-  console.log(asterisk);
-  asterisk += "*";
+// while (i < 5) {
+//   console.log(asterisk);
+//   asterisk += "*";
 
-  i++;
-}
+//   i++;
+// }
+// const animals = [
+//   "Hen",
+//   "elephant",
+//   "llama",
+//   "leopard",
+//   "ostrich",
+//   "Whale",
+//   "octopus",
+//   "rabbit",
+//   "lion",
+//   "dog",
+// ];
+// const favorite = (Hen) => {
+//   console.log(`My favorite Animal is ${Hen}`);
+// };
+// animals.forEach(favorite);
